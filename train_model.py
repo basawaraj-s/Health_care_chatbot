@@ -70,6 +70,18 @@ def load_dataset(path: Path) -> Tuple[pd.DataFrame, List[str]]:
 
 	df = df.drop_duplicates().reset_index(drop=True)
 
+	# Optional: downsample per class for quick local iterations
+	if QUICK_TRAIN:
+		max_per_class = 120
+		before = len(df)
+		df = (
+			df.groupby("disease", group_keys=False)
+			.apply(lambda g: g.sample(n=min(max_per_class, len(g)), random_state=42))
+			.reset_index(drop=True)
+		)
+		after = len(df)
+		print(f"[quick-train] Downsampled dataset per class: {before} -> {after} rows (<= {max_per_class} per class)")
+
 	return df, feature_cols
 
 
