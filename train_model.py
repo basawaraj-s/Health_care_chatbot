@@ -32,6 +32,9 @@ MAX_DEPTH = None
 MIN_SAMPLES_LEAF = 1
 
 ENABLE_HYPERPARAM_TUNING = os.environ.get("SKIP_HYPERPARAM_TUNING", "0") != "1"
+# Optional quick mode to ensure fast training during local runs/CI.
+# When QUICK_TRAIN=1, we reduce model size and depth so the script finishes quickly.
+QUICK_TRAIN = os.environ.get("QUICK_TRAIN", "0") == "1"
 HYPERPARAM_SEARCH_ITERATIONS = 18
 CV_FOLDS = 3
 
@@ -114,10 +117,11 @@ def prepare_splits(df: pd.DataFrame, feature_names: List[str]) -> Tuple[pd.DataF
 def tune_random_forest(X_train: np.ndarray, y_train: np.ndarray) -> Tuple[RandomForestClassifier, Dict[str, object]]:
 	"""Optionally run randomized search to tune the random forest."""
 
+	# Adjust base params if QUICK_TRAIN is enabled for faster iteration
 	base_params = {
-		"n_estimators": N_ESTIMATORS,
-		"max_depth": MAX_DEPTH,
-		"min_samples_leaf": MIN_SAMPLES_LEAF,
+		"n_estimators": 64 if QUICK_TRAIN else N_ESTIMATORS,
+		"max_depth": 20 if QUICK_TRAIN else MAX_DEPTH,
+		"min_samples_leaf": 2 if QUICK_TRAIN else MIN_SAMPLES_LEAF,
 		"random_state": 42,
 		"n_jobs": -1,
 		"class_weight": "balanced_subsample",
@@ -131,6 +135,8 @@ def tune_random_forest(X_train: np.ndarray, y_train: np.ndarray) -> Tuple[Random
 		}
 
 	print("Running randomized hyperparameter search...")
+	if QUICK_TRAIN:
+		print("[quick-train] Note: QUICK_TRAIN=1 is set; hyperparameter search may still be slow.")
 	search = RandomizedSearchCV(
 		estimator=model,
 		param_distributions=HYPERPARAM_DISTRIBUTIONS,
