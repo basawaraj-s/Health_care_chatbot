@@ -1,0 +1,231 @@
+symptom,feature_code
+Abnormal Appearing Skin,abnormal appearing skin
+Abnormal Breathing Sounds,abnormal breathing sounds
+Abnormal Involuntary Movements,abnormal involuntary movements
+Abnormal Movement Of Eyelid,abnormal movement of eyelid
+Abusing Alcohol,abusing alcohol
+Ache All Over,ache all over
+Acne Or Pimples,acne or pimples
+Allergic Reaction,allergic reaction
+Ankle Pain,ankle pain
+Ankle Swelling,ankle swelling
+Antisocial Behavior,antisocial behavior
+Anxiety And Nervousness,anxiety and nervousness
+Apnea,apnea
+Arm Lump Or Mass,arm lump or mass
+Arm Pain,arm pain
+Arm Stiffness Or Tightness,arm stiffness or tightness
+Arm Swelling,arm swelling
+Arm Weakness,arm weakness
+Back Cramps Or Spasms,back cramps or spasms
+Back Mass Or Lump,back mass or lump
+Back Pain,back pain
+Back Stiffness Or Tightness,back stiffness or tightness
+Bleeding From Ear,bleeding from ear
+Bleeding From Eye,bleeding from eye
+Bleeding Gums,bleeding gums
+Blindness,blindness
+Blood Clots During Menstrual Periods,blood clots during menstrual periods
+Blood In Stool,blood in stool
+Blood In Urine,blood in urine
+Bones Are Painful,bones are painful
+Breathing Fast,breathing fast
+Burning Abdominal Pain,burning abdominal pain
+Burning Chest Pain,burning chest pain
+Changes In Stool Appearance,changes in stool appearance
+Chest Tightness,chest tightness
+Chills,chills
+Congestion In Chest,congestion in chest
+Constipation,constipation
+Coryza,coryza
+Cough,cough
+Coughing Up Sputum,coughing up sputum
+Cramps And Spasms,cramps and spasms
+Decreased Appetite,decreased appetite
+Decreased Heart Rate,decreased heart rate
+Delusions Or Hallucinations,delusions or hallucinations
+Depression,depression
+Depressive Or Psychotic Symptoms,depressive or psychotic symptoms
+Diaper Rash,diaper rash
+Diarrhea,diarrhea
+Difficulty Breathing,difficulty breathing
+Difficulty In Swallowing,difficulty in swallowing
+Difficulty Speaking,difficulty speaking
+Diminished Hearing,diminished hearing
+Diminished Vision,diminished vision
+Disturbance Of Memory,disturbance of memory
+Dizziness,dizziness
+Double Vision,double vision
+Drug Abuse,drug abuse
+Ear Pain,ear pain
+Elbow Pain,elbow pain
+Elbow Swelling,elbow swelling
+Excessive Anger,excessive anger
+Excessive Urination At Night,excessive urination at night
+Eye Burns Or Stings,eye burns or stings
+Eye Redness,eye redness
+Eyelid Lesion Or Rash,eyelid lesion or rash
+Eyelid Swelling,eyelid swelling
+Facial Pain,facial pain
+Fainting,fainting
+Fatigue,fatigue
+Fears And Phobias,fears and phobias
+Feeling Ill,feeling ill
+Fever,fever
+Flu Like Syndrome,flu-like syndrome
+Fluid In Ear,fluid in ear
+Fluid Retention,fluid retention
+Focal Weakness,focal weakness
+Foot Or Toe Pain,foot or toe pain
+Foot Or Toe Swelling,foot or toe swelling
+Foreign Body Sensation In Eye,foreign body sensation in eye
+Frequent Menstruation,frequent menstruation
+Frequent Urination,frequent urination
+Frontal Headache,frontal headache
+Groin Pain,groin pain
+Gum Pain,gum pain
+Hand Or Finger Lump Or Mass,hand or finger lump or mass
+Hand Or Finger Pain,hand or finger pain
+Hand Or Finger Stiffness Or Tightness,hand or finger stiffness or tightness
+Hand Or Finger Swelling,hand or finger swelling
+Hand Or Finger Weakness,hand or finger weakness
+Headache,headache
+Heartburn,heartburn
+Heavy Menstrual Flow,heavy menstrual flow
+Hemoptysis,hemoptysis
+Hesitancy,hesitancy
+Hip Pain,hip pain
+Hip Stiffness Or Tightness,hip stiffness or tightness
+Hoarse Voice,hoarse voice
+Hostile Behavior,hostile behavior
+Hot Flashes,hot flashes
+Hurts To Breath,hurts to breath
+Hysterical Behavior,hysterical behavior
+Impotence,impotence
+Increased Heart Rate,increased heart rate
+Infant Feeding Problem,infant feeding problem
+Infertility,infertility
+Insomnia,insomnia
+Intermenstrual Bleeding,intermenstrual bleeding
+Involuntary Urination,involuntary urination
+Irregular Appearing Nails,irregular appearing nails
+Irregular Appearing Scalp,irregular appearing scalp
+Irregular Heartbeat,irregular heartbeat
+Irritable Infant,irritable infant
+Itchiness Of Eye,itchiness of eye
+Itching Of Skin,itching of skin
+Itching Of The Anus,itching of the anus
+Itchy Ear S,itchy ear(s)
+Itchy Scalp,itchy scalp
+Jaundice,jaundice
+Jaw Swelling,jaw swelling
+Joint Pain,joint pain
+Kidney Mass,kidney mass
+Knee Pain,knee pain
+Knee Stiffness Or Tightness,knee stiffness or tightness
+Knee Swelling,knee swelling
+Lack Of Growth,lack of growth
+Lacrimation,lacrimation
+Leg Pain,leg pain
+Leg Swelling,leg swelling
+Leg Weakness,leg weakness
+Lip Swelling,lip swelling
+Long Menstrual Periods,long menstrual periods
+Loss Of Sensation,loss of sensation
+Low Back Pain,low back pain
+Low Self Esteem,low self-esteem
+Low Urine Output,low urine output
+Lower Abdominal Pain,lower abdominal pain
+Lower Body Pain,lower body pain
+Mass On Eyelid,mass on eyelid
+Mass Or Swelling Around The Anus,mass or swelling around the anus
+Melena,melena
+Mouth Dryness,mouth dryness
+Mouth Pain,mouth pain
+Mouth Ulcer,mouth ulcer
+Nasal Congestion,nasal congestion
+Nausea,nausea
+Neck Mass,neck mass
+Neck Pain,neck pain
+Neck Swelling,neck swelling
+Nosebleed,nosebleed
+Obsessions And Compulsions,obsessions and compulsions
+Pain During Intercourse,pain during intercourse
+Pain During Pregnancy,pain during pregnancy
+Pain In Eye,pain in eye
+Pain In Gums,pain in gums
+Pain In Testicles,pain in testicles
+Pain Of The Anus,pain of the anus
+Painful Menstruation,painful menstruation
+Painful Sinuses,painful sinuses
+Painful Urination,painful urination
+Palpitations,palpitations
+Paresthesia,paresthesia
+Pelvic Pain,pelvic pain
+Peripheral Edema,peripheral edema
+Plugged Feeling In Ear,plugged feeling in ear
+Problems During Pregnancy,problems during pregnancy
+Problems With Movement,problems with movement
+Pulling At Ears,pulling at ears
+Pus Draining From Ear,pus draining from ear
+Recent Pregnancy,recent pregnancy
+Rectal Bleeding,rectal bleeding
+Redness In Ear,redness in ear
+Regurgitation,regurgitation
+Regurgitation 1,regurgitation.1
+Restlessness,restlessness
+Retention Of Urine,retention of urine
+Rib Pain,rib pain
+Ringing In Ear,ringing in ear
+Seizures,seizures
+Sharp Abdominal Pain,sharp abdominal pain
+Sharp Chest Pain,sharp chest pain
+Shortness Of Breath,shortness of breath
+Shoulder Pain,shoulder pain
+Shoulder Stiffness Or Tightness,shoulder stiffness or tightness
+Side Pain,side pain
+Sinus Congestion,sinus congestion
+Skin Dryness Peeling Scaliness Or Roughness,"skin dryness, peeling, scaliness, or roughness"
+Skin Growth,skin growth
+Skin Irritation,skin irritation
+Skin Lesion,skin lesion
+Skin Moles,skin moles
+Skin Rash,skin rash
+Skin Swelling,skin swelling
+Sleepiness,sleepiness
+Sneezing,sneezing
+Sore Throat,sore throat
+Spots Or Clouds In Vision,spots or clouds in vision
+Spotting Or Bleeding During Pregnancy,spotting or bleeding during pregnancy
+Stomach Bloating,stomach bloating
+Suprapubic Pain,suprapubic pain
+Sweating,sweating
+Swelling Of Scrotum,swelling of scrotum
+Swollen Eye,swollen eye
+Swollen Or Red Tonsils,swollen or red tonsils
+Symptoms Of Bladder,symptoms of bladder
+Symptoms Of Eye,symptoms of eye
+Symptoms Of Prostate,symptoms of prostate
+Symptoms Of The Face,symptoms of the face
+Symptoms Of The Kidneys,symptoms of the kidneys
+Symptoms Of The Scrotum And Testes,symptoms of the scrotum and testes
+Temper Problems,temper problems
+Throat Swelling,throat swelling
+Toothache,toothache
+Unpredictable Menstruation,unpredictable menstruation
+Unusual Color Or Odor To Urine,unusual color or odor to urine
+Upper Abdominal Pain,upper abdominal pain
+Uterine Contractions,uterine contractions
+Vaginal Discharge,vaginal discharge
+Vaginal Itching,vaginal itching
+Vaginal Pain,vaginal pain
+Vaginal Redness,vaginal redness
+Vomiting,vomiting
+Vomiting Blood,vomiting blood
+Warts,warts
+Weakness,weakness
+Weight Gain,weight gain
+Wheezing,wheezing
+White Discharge From Eye,white discharge from eye
+Wrist Pain,wrist pain
+Wrist Swelling,wrist swelling

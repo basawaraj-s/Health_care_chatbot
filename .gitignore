@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+
+# Environments
+.venv/
+venv/
+.env
+.env.*
+.python-version
+
+# OS / Tools
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.pytest_cache/
+.ipynb_checkpoints/
+*.log
+
+# Project-specific
+artifacts/
+# If you later want to track built models, consider Git LFS instead of committing large binaries.
+
+# Allow data to be tracked; comment the next line in if you want to ignore raw data
+# data/
